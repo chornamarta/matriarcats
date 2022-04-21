@@ -1,27 +1,36 @@
 using System;
 using Data.Models;
 using Data.Models.Enums;
+using Data.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data
 {
     public class DataContext : DbContext
     {
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Courses> Courses { get; set; }
-        public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<StudCourse> StudCourses { get; set; }
-        
+        public Repository<Student> StudentRepository { get; set; }
+        public Repository<Courses> CoursesRepository { get; set; } 
+        public Repository<Teacher> TeacherRepository { get; set; }
+        public Repository<StudCourse> StudCourseRepository { get; set; }
+
         public DataContext(DbContextOptions options) : base(options)
         {
-            //Database.EnsureDeleted();
-            //Database.EnsureCreated();
-            //Database.GetConnectionString();
+            StudentRepository = new Repository<Student>(this);
+            CoursesRepository = new Repository<Courses>(this);
+            TeacherRepository = new Repository<Teacher>(this);
+            StudCourseRepository = new Repository<StudCourse>(this);
         }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+            ConfigureEnums(modelBuilder);
+        }
+
+        private void ConfigureEnums(ModelBuilder modelBuilder)
+        {
             modelBuilder.Entity<StudCourse>().HasKey(u => new { u.StudId, u.CourseId });
+            
             modelBuilder
                 .Entity<Courses>()
                 .Property(e => e.Years)
