@@ -1,32 +1,63 @@
-﻿using Data.Models.Enums;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Data.Models
+namespace LFC.DAL.Models
 {
-    [Table("Courses")]
+    public enum Semester
+    {
+        [Display(Name = "1 семестр")]
+        FirstSemester,
+
+        [Display(Name = "2 семестр")]
+        SecondSemester
+    }
+    public enum Year
+    {
+        [Display (Name = "3")]
+        Third,
+
+        [Display(Name = "4")]
+        Fourth
+    }
+    
     public class Courses
     {
         [Key]
-        public Guid CourseId { get; set; }
-        [NotNull]
+        public int CourseId { get; set; }
+
+        [Display(Name = "Назва курсу")]
+        [Required]
         public string CourseName { get; set; }
-        [NotNull]
-        public string Description { get; set; }
-        [NotNull]
+
+        [Display(Name = "Опис курсу")]
+        [Required]
+        public string CourseDescription { get; set; }
+
+        [Display(Name = "Курс")]
+        [Required]
+        [EnumDataType(typeof(Year))]
+        public Year Year { get; set; }
+
+        [Display(Name = "Семестр")]
+        [Required]
+        [EnumDataType(typeof(Semester))]
         public Semester Semester { get; set; }
-        [NotNull]
-        public Years Years { get; set; }
-        [NotNull]
+
+        [Display(Name = "Спеціальність")]
+        [Required]
+        [EnumDataType(typeof(Specialities))]
         public Specialities Specialities { get; set; }
 
+
+        public ICollection<Student> Students { get; set; }
+        public ICollection<StudentCourses> StudentCourses { get; set; }
+
+        public ICollection<Teacher> Teachers { get; set; }
+        public ICollection<TeacherCourses> TeacherCourses { get; set; }
         
-        public Guid TeacherId  { get; set; }
-        [ForeignKey("TeacherId")]
-        public virtual Teacher Teacher { get; set; }
-
-
     }
 }

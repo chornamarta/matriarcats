@@ -1,22 +1,62 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Data.Models
+namespace LFC.DAL.Models
 {
-    [Table("Students")]
+    public enum Specialities
+    {
+        [Display(Name ="Комп'ютерні науки")]
+        ComputerScience,
+
+        [Display(Name = "Прикладна математика")]
+        AppliedMathemetics,
+
+        [Display(Name = "Системний аналіз")]
+        SystemAnalysis,
+
+        [Display(Name = "Кібербезпека")]
+        Cybersecurity,
+
+        [Display(Name = "Середня освіта.Інформатика")]
+        Informatics,
+    }
+
     public class Student
     {
         [Key]
-        public Guid StudentId { get; set; }
-        [NotNull]
-        public string Surename { get; set; }
-        [NotNull]
+        public int StudId { get; set; }
+
+        [Display(Name = "Ім'я")]
+        [Required]
         public string Name { get; set; }
-        [NotNull]
+
+        [Display(Name = "Прізвище")]
+        [Required]
+        public string Surname { get; set; }
+
+        [Display(Name = "Пошта")]
+        [Required]
         public string Email { get; set; }
-        [NotNull]
+
+        [Display(Name = "Пароль")]
+        [Required]
         public string Password { get; set; }
+
+        [Display(Name = "Група")]
+        [Required]
+        public string Group { get; set; }
+        
+        [Display(Name = "Спеціальність")]
+        [Required]
+        [EnumDataType(typeof(Specialities))]
+        public Specialities Specialities { get; set; }
+
+
+        public ICollection<Courses> Courses { get; set; }
+        public ICollection<StudentCourses> StudentCourses { get; set; }
     }
 }
