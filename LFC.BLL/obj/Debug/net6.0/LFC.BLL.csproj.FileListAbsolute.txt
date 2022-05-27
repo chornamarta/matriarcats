@@ -1,0 +1,24 @@
+C:\Users\Admin\source\repos\LFC\LFC.BLL\bin\Debug\net6.0\LFC.BLL.deps.json
+C:\Users\Admin\source\repos\LFC\LFC.BLL\bin\Debug\net6.0\LFC.BLL.dll
+C:\Users\Admin\source\repos\LFC\LFC.BLL\bin\Debug\net6.0\LFC.BLL.pdb
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.AssemblyInfo.cs
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.dll
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\refint\LFC.BLL.dll
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.pdb
+C:\Users\Admin\source\repos\LFC\LFC.BLL\obj\Debug\net6.0\ref\LFC.BLL.dll
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\bin\Debug\net6.0\LFC.BLL.deps.json
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\bin\Debug\net6.0\LFC.BLL.dll
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\bin\Debug\net6.0\LFC.BLL.pdb
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.csproj.AssemblyReference.cache
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.AssemblyInfoInputs.cache
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.AssemblyInfo.cs
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.csproj.CoreCompileInputs.cache
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.dll
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\refint\LFC.BLL.dll
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\LFC.BLL.pdb
+D:\завантаження\Універ\програмна інженарія(ПІ)\LFC\LFC.BLL\obj\Debug\net6.0\ref\LFC.BLL.dll
