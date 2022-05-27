@@ -1,0 +1,29 @@
+﻿@using LFC.DAL.Models
+@model IEnumerable<Courses>
+@{
+    ViewData["Title"] = "Список студентів";
+}
+<h2 align="center">@ViewData["Title"]</h2>
+@foreach (var item in Model)
+{
+   <div class="card text-white bg-primary mb-3">
+    <div class="card-header">
+        <h4 align="center">@item.CourseName</h4>
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+            @foreach (var stud in item.Students)
+            {
+                <div class="d-flex bd-highlight">
+                    <div class="p-2 flex-grow-1 bd-highlight">@Html.DisplayFor(s=>stud.Name) @Html.DisplayFor(s=>stud.Surname)</div>
+                    <div class="p-2 bd-highlight">@Html.DisplayFor(s=>stud.Specialities)</div>
+                    <div class="p-2 bd-highlight">@Html.DisplayFor(s=>stud.Group)</div>
+                </div>
+            }
+            
+        </blockquote>
+    </div>
+</div>
+
+}
+
