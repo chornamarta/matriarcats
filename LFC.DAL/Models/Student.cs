@@ -37,7 +37,6 @@ namespace LFC.DAL.Models
         public int StudId { get; set; }
 
         [Display(Name = "Ім'я")]
-        
         public string Name { get; set; }
 
         [Display(Name = "Прізвище")]

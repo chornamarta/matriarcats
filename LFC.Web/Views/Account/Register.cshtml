@@ -1,0 +1,64 @@
+﻿@using LFC.DAL.Models
+@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Реєстрація";
+}
+
+<html lang="en">
+
+<div class="row">
+    <div class="col-md-4 bg-info">
+        <hr />
+        <h2 align="center" class="text-light">@ViewData["Title"]</h2>
+        <form id="registerForm" method="post" action="/Account/Register">
+            <hr />
+            <div class="form-floating">
+                <input class="form-control" autocomplete="name" aria-required="true" type="name" data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" id="Input_Name" name="Input.Name" />
+                <label for="Input_Name">Ім'я</label>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Input.Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-floating">
+                <input class="form-control" autocomplete="username" aria-required="true" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="" />
+                <label for="Input_Email">Електронна адреса</label>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-floating">
+                <input class="form-control" autocomplete="new-password" aria-required="true" type="password" data-val="true" data-val-length="The Password must be at least 6 and at max 100 characters long." data-val-length-max="100" data-val-length-min="6" data-val-required="The Password field is required." id="Input_Password" maxlength="100" name="Input.Password" />
+                <label for="Input_Password">Пароль</label>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
+            </div>
+            <hr />
+            
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Зареєструватися</button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Gm_sC1OzihOrj6Y_qOkxkCvXdmgABZfJr_Bd1g0P58TRlvYf2_xnK0MLl9OfU6DsSK594AZ7nJlMWC87cNF5UE2RNXfhjV7peYmcC9GuLpukiMXcLaxRF7EneJ8BygZGQS2wAnU3xhjSswLtkqTsQU" /></form>
+            <hr />
+            
+</div>
+
+
+        </main>
+    </div>
+
+    <footer b-oyk5uisykl class="border-top footer text-muted">
+        <div b-oyk5uisykl class="container">
+            &copy; 2022 - matriarcats - <a href="/Home/Privacy">Privacy</a> - <a href="/Profile/ListStudent">Students</a> - <a href="/Profile/MyCourses">My courses</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+    
+    <script src="/Identity/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+
+
+
+
+<!-- Visual Studio Browser Link -->
+<script type="text/javascript" src="https://localhost:44399/4a54f240099f43b1bc4a631dcb199dd3/browserLink" async="async" id="__browserLink_initializationData" data-requestId="77237b21ef1a4c12acb45b7831accc38" data-requestMappingFromServer="False"></script>
+<!-- End Browser Link -->
+
+@*<script src="/_framework/aspnetcore-browser-refresh.js"></script></body>*@
+</html>

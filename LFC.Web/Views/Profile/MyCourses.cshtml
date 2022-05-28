@@ -1,9 +1,9 @@
 ﻿@using LFC.DAL.Models
 @model IEnumerable<Courses>
 @{
-    ViewData["Title"] = "Перелік курсів";
+    ViewData["Title"] = "Обрані дисципліни";
 }
-<h2 align="center">@ViewData["Title"]</h2>
+<h2 align="center">@ViewData["Title"]</h1>
 @foreach (var item in Model)
 {
    <div class="card text-white bg-primary mb-3">
@@ -21,4 +21,5 @@
         </blockquote>
     </div>
 </div>
+
 }

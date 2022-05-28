@@ -20,7 +20,6 @@ namespace LFC.DAL
         public DbSet<TeacherCourses> TeacherCourses { get; set; }
         public DbSet<StudentCourses> StudentCourses { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //modelBuilder.HasPostgresEnum<TeacherRole>();
