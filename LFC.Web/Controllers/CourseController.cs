@@ -1,11 +1,9 @@
 using System.Threading.Tasks;
-using DataAccess.Entities;
-using Domain.Contracts;
-using Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using LFC.BLL.Contracts;
+using LFC.BLL.Models;
 
 namespace LFC.Web.Controllers
 {
@@ -18,6 +16,19 @@ namespace LFC.Web.Controllers
         {
             _courseService = courseService;
         }
+        
+        [Authorize]
+        public async Task<IActionResult> Index()
+        {
+            var teacherId = HttpContext.User.FindFirst("Id")?.Value;
+            return View(await _courseService.GetCourses(teacherId));
+        }
+        
+        [Authorize]
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
 
         [Authorize]
         [HttpPost]
@@ -27,12 +38,12 @@ namespace LFC.Web.Controllers
 
             if (!ModelState.IsValid)
             {
-                return Redirect("/courses/create");
+                return Redirect("/course/create");
             }
             
             await _courseService.CreateCourse(teacherId, model);
             
-            return Redirect("тут має бути редірект кудись");
+            return Redirect("/course");
         }
         
         [Authorize]
@@ -43,12 +54,12 @@ namespace LFC.Web.Controllers
 
             if (!ModelState.IsValid)
             {
-                return Redirect("тут має бути редірект кудись");
+                return Redirect("/course");
             }
             
             await _courseService.DeleteCourse(teacherId, model);
             
-            return Redirect("тут має бути редірект кудись");
+            return Redirect("/course");
         }
     }
 }

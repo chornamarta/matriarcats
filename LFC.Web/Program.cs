@@ -1,6 +1,7 @@
 using System;
 using LFC.Web;
 using LFC.DAL;
+using LFC.DAL.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
@@ -26,7 +27,7 @@ try
     builder.Services.AddDatabaseDeveloperPageExceptionFilter();
     
     //new .AddRoles<IdentityRole>()
-    builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    /*builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
         .AddRoles<IdentityRole>()
         .AddEntityFrameworkStores<LFCDbContext>();
     builder.Services.AddControllersWithViews();
@@ -36,7 +37,7 @@ try
     {
         options.AddPolicy("ElevatedRights", policy =>
             policy.RequireRole("Teacher", "Student"));
-    });
+    });*/
     
     builder.Services.ConfigureApplicationCookie(options =>
     {

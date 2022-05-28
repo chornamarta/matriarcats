@@ -1,7 +1,6 @@
 ﻿у@using LFC.DAL.Models
 @using Microsoft.AspNetCore.Identity
 @using LFC.DAL.Models
-@inject UserManager<User> userManager
 @model IEnumerable<LFC.DAL.Models.Student>
 @{
     ViewData["Title"] = "Реєстрація";
@@ -14,7 +13,7 @@
     <div class="col-md-4 bg-info">
         <hr />
         <h2 align="center" class="text-light">@ViewData["Title"]</h2>
-        <form id="registerForm" method="post" action="/Account/Register">
+        <form id="registerForm" method="post" action="/Auth/Register">
             <hr />
             <div class="form-floating">
                 <input class="form-control" autocomplete="name" aria-required="true" type="name" data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" id="Input_Name" name="Input.Name" />

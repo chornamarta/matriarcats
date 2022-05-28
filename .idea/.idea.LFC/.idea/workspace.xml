@@ -5,184 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26acc4ae-8074-4e8a-927f-83cfdf07d31b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LFC.DAL/Migrations/20220512124309_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LFC.DAL/Migrations/20220512124309_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LFC.Web/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LFC.Web/Controllers/ProfileController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LFC.Web/Views/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LFC.Web/Views/Profile/ListStudent.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LFC.Web/Views/Profile/MyCourses.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ПІ2_Документація.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LFC/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LFC/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LFC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LFC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/bin/Debug/net6.0/LFC.BLL.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/bin/Debug/net6.0/LFC.BLL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/bin/Debug/net6.0/LFC.BLL.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/LFC.BLL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/ref/LFC.BLL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/Debug/net6.0/refint/LFC.BLL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/LFC.BLL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/LFC.BLL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/LFC.BLL.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/LFC.BLL.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/LFC.BLL.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/LFC.BLL.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.BLL/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/LFC.DAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.DAL/LFC.DAL.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/LFCDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.DAL/LFCDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/Migrations/LFCDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.DAL/Migrations/LFCDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.DAL/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/Models/StudentCourses.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.DAL/Models/StudentCourses.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/Models/Teacher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.DAL/Models/Teacher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/bin/Debug/net6.0/LFC.DAL.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/bin/Debug/net6.0/LFC.DAL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/bin/Debug/net6.0/LFC.DAL.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/LFC.DAL.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/ref/LFC.DAL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/Debug/net6.0/refint/LFC.DAL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/LFC.DAL.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/LFC.DAL.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/LFC.DAL.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/LFC.DAL.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.DAL/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/Views/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Humanizer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.DAL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.DAL.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/LFC.Web.staticwebassets.runtime.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.UI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Embedded.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/NewRelic.Api.Agent.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/NewRelic.LogEnrichers.Serilog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Npgsql.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Builder.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Enrichers.Environment.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Enrichers.Thread.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Extensions.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Formatting.Compact.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Settings.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.File.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.NewRelic.Logs.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.PeriodicBatching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.Seq.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.Splunk.CustomFormatter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.Sinks.Splunk.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/Serilog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.RazorAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.RazorAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/LFC.Web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/apphost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/project.razor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/ref/LFC.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/refint/LFC.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/scopedcss/bundle/LFC.Web.styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/scopedcss/projectbundle/LFC.Web.bundle.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/LFC.Web.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/LFC.Web.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/LFC.Web.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/LFC.Web.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LFC.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/LFC.DAL-s.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.BLL/Interfaces/ICourseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/Interfaces/ICourseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.BLL/Models/CreateCourseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/Models/CreateCourseDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.BLL/Services/CourseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.BLL/Services/CourseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.DAL/Migrations/20220511092428_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.DAL/Migrations/20220511092428_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.Web/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.Web/Controllers/CourseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Controllers/CourseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.Web/Controllers/ProfileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Controllers/ProfileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.Web/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Views/Auth/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LFC.Web/Views/Profile/MyCourses.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LFC.Web/Views/Profile/MyCourses.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +28,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/LFC.DAL/LFCDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LFC.DAL/Migrations/20220512124309_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/CreateCourseDto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Repository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0E187B6B-FB1F-4248-8672-51F9B3655E44/1/IdentityRole.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LFC.DAL/LFCDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/LFC.Web/Views/Profile/MyCourses.cshtml" />
+      <option value="$PROJECT_DIR$/LFC.Web/Controllers/ProfileController.cs" />
+      <option value="$PROJECT_DIR$/LFC.BLL/Interfaces/IRepository.cs" />
+      <option value="$PROJECT_DIR$/LFC.DAL/Repositories/Repository.cs" />
+      <option value="$PROJECT_DIR$/LFC.BLL/Models/CreateCourseDto.cs" />
+      <option value="$PROJECT_DIR$/LFC.Web/Views/Courses/Create.cshtml" />
+      <option value="$PROJECT_DIR$/LFC.Web/Views/Courses/Index.cshtml" />
+      <option value="$PROJECT_DIR$/LFC.BLL/Services/CourseService.cs" />
+      <option value="$PROJECT_DIR$/LFC.BLL/Interfaces/ICourseService.cs" />
+      <option value="$PROJECT_DIR$/LFC.Web/Controllers/CourseController.cs" />
+      <option value="$PROJECT_DIR$/LFC.Web/Views/Account/Register.cshtml" />
+      <option value="$PROJECT_DIR$/LFC.Web/Controllers/AuthController.cs" />
+      <option value="$PROJECT_DIR$/LFC.Web/Program.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="29myelmp5HTTS9WyvB8W7vrwMsd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -202,9 +61,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34962717" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.LFC.Web">
@@ -248,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653732654040</updated>
       <workItem from="1653732688537" duration="598000" />
-      <workItem from="1653733354929" duration="446000" />
+      <workItem from="1653733354929" duration="7700000" />
     </task>
     <servers />
   </component>
@@ -270,5 +138,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LFC.Web/Controllers/AuthController.cs</url>
+          <line>74</line>
+          <properties documentPath="$PROJECT_DIR$/LFC.Web/Controllers/AuthController.cs" initialLine="74" containingFunctionPresentation="method 'Register'">
+            <startOffsets>
+              <option value="2058" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2082" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LFC.Web/Program.cs</url>
+          <line>82</line>
+          <properties documentPath="$PROJECT_DIR$/LFC.Web/Program.cs" initialLine="82">
+            <startOffsets>
+              <option value="2503" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2540" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

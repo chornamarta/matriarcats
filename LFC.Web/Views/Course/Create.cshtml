@@ -1,0 +1,18 @@
+@using LFC.DAL.Models
+@model Courses
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Створити курс</h2>
+            <hr/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CourseName"></label>
+            <input asp-for="CourseName" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="CourseDescription"></label>
+            <input asp-for="CourseDescription" class="form-control" />
+        </div>
+    </div>
+</form>

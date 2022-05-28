@@ -87,9 +87,11 @@ using LFC.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 namespace LFC.Web.Controllers
 {
+    
     public class ProfileController : Controller
     {
         private readonly LFCDbContext _db;

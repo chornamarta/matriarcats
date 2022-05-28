@@ -1,0 +1,15 @@
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/bin/Debug/net6.0/LFC.BLL.deps.json
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/bin/Debug/net6.0/LFC.BLL.dll
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/bin/Debug/net6.0/LFC.BLL.pdb
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/bin/Debug/net6.0/LFC.DAL.dll
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/bin/Debug/net6.0/LFC.DAL.pdb
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.AssemblyReference.cache
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.AssemblyInfoInputs.cache
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.AssemblyInfo.cs
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.CoreCompileInputs.cache
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.csproj.CopyComplete
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.dll
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/refint/LFC.BLL.dll
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/LFC.BLL.pdb
+/Users/applecity/Documents/projects/matriarcats/LFC.BLL/obj/Debug/net6.0/ref/LFC.BLL.dll

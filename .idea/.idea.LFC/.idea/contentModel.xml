@@ -3,10 +3,65 @@
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="LFC.BLL" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IAuthService.cs" t="Include" />
+          <e p="ICourseService.cs" t="Include" />
+        </e>
         <e p="LFC.BLL.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="CreateCourseDto.cs" t="Include" />
+          <e p="DeleteCoursesDto.cs" t="Include" />
+          <e p="LoginDto.cs" t="Include" />
+          <e p="RegisterDto.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net6.0" t="Include">
+              <e p="LFC.BLL.AssemblyInfo.cs" t="Include" />
+              <e p="LFC.BLL.GlobalUsings.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="AuthService.cs" t="Include" />
+          <e p="CourseService.cs" t="Include" />
+        </e>
       </e>
       <e p="LFC.DAL" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts" t="Include">
+          <e p="IRepository.cs" t="Include" />
+        </e>
         <e p="LFC.DAL.csproj" t="IncludeRecursive" />
+        <e p="LFCDbContext.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20220512124309_InitialCreate.cs" t="Include" />
+          <e p="20220512124309_InitialCreate.Designer.cs" t="Include" />
+          <e p="20220512211806_AddIdentity.cs" t="Include" />
+          <e p="20220512211806_AddIdentity.Designer.cs" t="Include" />
+          <e p="LFCDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Courses.cs" t="Include" />
+          <e p="Login.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+          <e p="StudentCourses.cs" t="Include" />
+          <e p="Teacher.cs" t="Include" />
+          <e p="TeacherCourses.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net6.0" t="Include">
+              <e p="LFC.DAL.AssemblyInfo.cs" t="Include" />
+              <e p="LFC.DAL.GlobalUsings.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="Repository.cs" t="Include" />
+        </e>
       </e>
       <e p="LFC.sln" t="IncludeFlat" />
       <e p="LFC.Web" t="IncludeRecursive">
@@ -33,7 +88,15 @@
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
         </e>
-        <e p="obj" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net6.0" t="Include">
+              <e p="LFC.Web.AssemblyInfo.cs" t="Include" />
+              <e p="LFC.Web.GlobalUsings.g.cs" t="Include" />
+              <e p="LFC.Web.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Pages" t="Include">
           <e p="Account" t="Include">
             <e p="Login.cshtml" t="Include" />
@@ -48,8 +111,12 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
-          <e p="Account" t="Include">
+          <e p="Auth" t="Include">
             <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Course" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
