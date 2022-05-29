@@ -10,3 +10,15 @@
 /Users/applecity/Documents/projects/matriarcats/LFC.DAL/obj/Debug/net6.0/refint/LFC.DAL.dll
 /Users/applecity/Documents/projects/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.pdb
 /Users/applecity/Documents/projects/matriarcats/LFC.DAL/obj/Debug/net6.0/ref/LFC.DAL.dll
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/bin/Debug/net6.0/LFC.DAL.deps.json
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/bin/Debug/net6.0/LFC.DAL.dll
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/bin/Debug/net6.0/LFC.DAL.pdb
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.csproj.AssemblyReference.cache
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.AssemblyInfoInputs.cache
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.AssemblyInfo.cs
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.csproj.CoreCompileInputs.cache
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.dll
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/refint/LFC.DAL.dll
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/LFC.DAL.pdb
+/Users/bondarth/Desktop/fpmi/3-kurs/pi/matriarcats/LFC.DAL/obj/Debug/net6.0/ref/LFC.DAL.dll

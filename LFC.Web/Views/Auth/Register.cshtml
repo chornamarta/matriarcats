@@ -1,7 +1,7 @@
-﻿у@using LFC.DAL.Models
+﻿@using LFC.DAL.Models
 @using Microsoft.AspNetCore.Identity
 @using LFC.DAL.Models
-@model IEnumerable<LFC.DAL.Models.Student>
+@model LFC.BLL.Models.RegisterDto
 @{
     ViewData["Title"] = "Реєстрація";
 }
@@ -16,24 +16,27 @@
         <form id="registerForm" method="post" action="/Auth/Register">
             <hr />
             <div class="form-floating">
-                <input class="form-control" autocomplete="name" aria-required="true" type="name" data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" id="Input_Name" name="Input.Name" />
+                <input class="form-control" asp-for="Name"  aria-required="true" ata-val="true" id="Input_Name"/>
                 <label for="Input_Name">Ім'я</label>
-                <span class="text-danger field-validation-valid" data-valmsg-for="Input.Name" data-valmsg-replace="true"></span>
             </div>
             <div class="form-floating">
-                <input class="form-control" autocomplete="username" aria-required="true" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="" />
+                <input class="form-control" asp-for="Surname" aria-required="true" id="Input_Surname"/>
+                <label for="Input_Name">Прізвище</label>
+            </div>
+            <div class="form-floating">
+                <input class="form-control" asp-for="Email" aria-required="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email"/>
                 <label for="Input_Email">Електронна адреса</label>
                 <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
             </div>
             <div class="form-floating">
-                <input class="form-control" autocomplete="new-password" aria-required="true" type="password" data-val="true" data-val-length="The Password must be at least 6 and at max 100 characters long." data-val-length-max="100" data-val-length-min="6" data-val-required="The Password field is required." id="Input_Password" maxlength="100" name="Input.Password" />
+                <input class="form-control" asp-for="Password" aria-required="true" type="password" data-val="true" data-val-length="The Password must be at least 6 and at max 100 characters long." data-val-length-max="100" data-val-length-min="6" data-val-required="The Password field is required." id="Input_Password" maxlength="100"/>
                 <label for="Input_Password">Пароль</label>
                 <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
             </div>
             <hr />
             
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Зареєструватися</button>
-        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Gm_sC1OzihOrj6Y_qOkxkCvXdmgABZfJr_Bd1g0P58TRlvYf2_xnK0MLl9OfU6DsSK594AZ7nJlMWC87cNF5UE2RNXfhjV7peYmcC9GuLpukiMXcLaxRF7EneJ8BygZGQS2wAnU3xhjSswLtkqTsQU" /></form>
+        </form>
             <hr />
             
 </div>

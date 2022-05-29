@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zqYBBOhHid9b3IV0//H6OIOEMwTFDD0o4ubwXZrrCYHAnwi6nGUjFRnaDkOmlecNAZGvt4+MSb450BkfFDM8zQ==",
+  "dgSpecHash": "GXcGGJNGqiE8opHgBqOZaafe/i15pj3HWNUZpTI9zAQlH2wEi52tZFWdc4OVXJAQMZaqvCvJ/YoUq4v2/XZj3w==",
   "success": true,
   "projectFilePath": "/Users/applecity/Documents/projects/matriarcats/LFC.DAL/LFC.DAL.csproj",
   "expectedPackageFiles": [
+    "/Users/applecity/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.4/microsoft.aspnetcore.cryptography.internal.6.0.4.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.4/microsoft.aspnetcore.cryptography.keyderivation.6.0.4.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.4/microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.4.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.4/microsoft.aspnetcore.identity.entityframeworkcore.6.0.4.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
@@ -17,6 +20,8 @@
     "/Users/applecity/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.extensions.dependencymodel/3.0.0/microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.extensions.identity.core/6.0.4/microsoft.extensions.identity.core.6.0.4.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.extensions.identity.stores/6.0.4/microsoft.extensions.identity.stores.6.0.4.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/applecity/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",

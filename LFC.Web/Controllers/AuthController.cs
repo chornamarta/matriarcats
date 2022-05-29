@@ -25,17 +25,17 @@ namespace LFC.Web.Controllers
             _authService = authService;
         }
         
-        /*public IActionResult Login()
+        public IActionResult Login()
         {
             return View();
-        }*/
+        }
 
         [HttpPost]
         public async Task<IActionResult> Login(LoginDto model)
         {
             if (!ModelState.IsValid)
             {
-                return Redirect("/login");
+                return Redirect("/auth/login");
             }
 
             try
@@ -43,11 +43,11 @@ namespace LFC.Web.Controllers
                 var user = await _authService.LoginAsync(model);
                 await LoginUser(user);
                 
-                return Redirect("/student");
+                return Redirect("/");
             }
             catch (Exception e)
             {
-                return Redirect("/login");
+                return Redirect("/auth/login");
             }
             
         }
@@ -58,9 +58,9 @@ namespace LFC.Web.Controllers
             {
                 new Claim("Id", user.Id),
                 new Claim(ClaimsIdentity.DefaultRoleClaimType, user.UserRole.ToString())
-            }, CookieAuthenticationDefaults.AuthenticationScheme);
+            }, "Identity.Application");
             await HttpContext.SignInAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme,
+                "Identity.Application",
                 new ClaimsPrincipal(claims));
         }
         
@@ -74,7 +74,7 @@ namespace LFC.Web.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return Redirect("/register");
+                return Redirect("/auth/register");
             }
 
             try
@@ -83,10 +83,10 @@ namespace LFC.Web.Controllers
             }
             catch (Exception e)
             {
-                return Redirect("/register");
+                return Redirect("/auth/register");
             }
 
-            return Redirect("/login");
+            return Redirect("/auth/login");
         }
     } 
 }

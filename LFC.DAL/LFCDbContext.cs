@@ -1,14 +1,14 @@
 ﻿using System;
 using LFC.DAL.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace LFC.DAL
 {
-    public class LFCDbContext:DbContext
+    public class LFCDbContext : IdentityDbContext
     {
-        public LFCDbContext(DbContextOptions options) : 
-            base(options)
+        public LFCDbContext(DbContextOptions options) : base(options)
         {
             //Database.EnsureCreated();
         }

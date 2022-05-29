@@ -54,12 +54,12 @@ namespace LFC.Web.Controllers
 
             if (!ModelState.IsValid)
             {
-                return Redirect("/course");
+                return Redirect("/courses");
             }
             
             await _courseService.DeleteCourse(teacherId, model);
             
-            return Redirect("/course");
+            return Redirect("/courses");
         }
     }
 }

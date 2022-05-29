@@ -17,7 +17,6 @@ namespace LFC.DAL.Models
         public UserRole UserRole { get; set; }
         
         public DateTime CreatedAt { get; set; } = DateTime.Now;
-        public int UserId { get; set; }
         
         public virtual Student Student { get; set; }
         

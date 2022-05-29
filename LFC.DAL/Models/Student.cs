@@ -43,23 +43,12 @@ namespace LFC.DAL.Models
         [Required]
         public string Surname { get; set; }
 
-        [Display(Name = "Пошта")]
-        [Required]
-        public string Email { get; set; }
-
-        [Display(Name = "Пароль")]
-        [Required]
-        public string Password { get; set; }
-
         [Display(Name = "Група")]
-        [Required]
         public string Group { get; set; }
         
         [Display(Name = "Спеціальність")]
-        [Required]
         [EnumDataType(typeof(Specialities))]
         public Specialities Specialities { get; set; }
-
 
         public ICollection<Courses> Courses { get; set; }
         public ICollection<StudentCourses> StudentCourses { get; set; }

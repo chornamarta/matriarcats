@@ -19,10 +19,10 @@ namespace LFC.Web.Controllers
         //    return View(await _db.Courses.Include(c => c.Teachers).ToListAsync());
         //}
 
-        public IActionResult Register()
-        {
-            return View();
-        }
+        // public IActionResult Register()
+        // {
+        //     return View();
+        // }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

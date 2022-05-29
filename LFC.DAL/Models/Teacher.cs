@@ -45,14 +45,6 @@ namespace LFC.DAL.Models
         [EnumDataType(typeof(TeacherRole))]
         public TeacherRole TeacherRole { get; set; }
 
-        [Required]
-        [Display(Name = "Пошта")]
-        public string Email { get; set; }
-
-        [Required]
-        [Display(Name ="Пароль")]
-        public string Password { get; set; }
-
         public ICollection<Courses> Courses { get; set; }
         public ICollection<TeacherCourses> TeacherCourses { get; set; }
     }

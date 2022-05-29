@@ -47,6 +47,7 @@ namespace LFC.BLL
             var user = new User()
             {
                 Email = model.Email,
+                UserName = model.Email,
                 UserRole = UserRole.Student,
             };
 
@@ -55,10 +56,8 @@ namespace LFC.BLL
                 UserId = user.Id,
                 Name = model.Name,
                 Surname = model.Surname,
-
             };
-           
-
+            
             user.Student = student;
             await _userManager.CreateAsync(user, model.Password);
         }

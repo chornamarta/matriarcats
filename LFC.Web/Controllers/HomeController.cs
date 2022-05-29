@@ -1,4 +1,5 @@
-﻿using LFC.DAL;
+﻿using System;
+using LFC.DAL;
 using LFC.DAL.Models;
 using LFC.Web.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +18,8 @@ namespace LFC.Web.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _db.Courses.Include(c => c.Teachers).ToListAsync());
+            var courses = await _db.Courses.Include(c => c.Teachers).ToListAsync();
+            return View(courses);
         }
 
         public IActionResult Privacy()

@@ -40,6 +40,12 @@
           <e p="20220512124309_InitialCreate.Designer.cs" t="Include" />
           <e p="20220512211806_AddIdentity.cs" t="Include" />
           <e p="20220512211806_AddIdentity.Designer.cs" t="Include" />
+          <e p="20220528181825_IdentityUpdate.cs" t="Include" />
+          <e p="20220528181825_IdentityUpdate.Designer.cs" t="Include" />
+          <e p="20220529085529_RemoveUselessFields.cs" t="Include" />
+          <e p="20220529085529_RemoveUselessFields.Designer.cs" t="Include" />
+          <e p="20220529085651_RemoveUselessFields2.cs" t="Include" />
+          <e p="20220529085651_RemoveUselessFields2.Designer.cs" t="Include" />
           <e p="LFCDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -112,6 +118,7 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Auth" t="Include">
+            <e p="Login.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
           </e>
           <e p="Course" t="Include">
