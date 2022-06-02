@@ -1,19 +1,19 @@
-@*using LFC.DAL.Models*@
-@model LFC.DAL.Models.Courses
-<form method="post">
+﻿@model LFC.DAL.Models.Courses
+<form method="post" asp-action="Delete">
+    <input asp-for="CourseId" hidden/>
     <div class="border p-3 mt-4">
         <div class="row pb-2">
-            <h2 class="text-primary">Створити курс</h2>
+            <h2 class="text-primary">Видалити курс</h2>
             <hr/>
         </div>
         <div class="mb-3">
             <label asp-for="CourseName"></label>
-            <input asp-for="CourseName" class="form-control" />
+            <input asp-for="CourseName" disabled class="form-control" />
             <span asp-validation-for="CourseName" class="text-danger"></span>
         </div>
         <div class="mb-3">
             <label asp-for="CourseDescription"></label>
-            <input asp-for="CourseDescription" class="form-control" />
+            <input asp-for="CourseDescription" disabled class="form-control" />
             <span asp-validation-for="CourseDescription" class="text-danger"></span>
         </div>
         <div class="mb-3">
@@ -50,9 +50,6 @@
                 </select>
               </div>
         </div>
-        <button type="submit" class="btn btn-primary" style="width:150px">Створити</button>
-        <a asp-controller="Course" asp-action="Index" class="btn btn-secondary" style="width:250px">
-            До переліку курсів
-        </a>
+        <button type="submit" class="btn btn-primary" style="width:150px">Видалити</button>
     </div>
 </form>
